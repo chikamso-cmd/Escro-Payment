@@ -1,21 +1,21 @@
-import React from 'react'
+import React from "react";
 import hero from "../assets/Hero.svg";
 import { RiShieldStarLine } from "react-icons/ri";
-import {ReactTyped} from 'react-typed';
+import { ReactTyped } from "react-typed";
 
 export default function HeroSection() {
   return (
-    <section>
-      <div className="w-[80%]  mx-auto rounded-2xl mt-20 p-10 flex  items-center flex-row-reverse">
+    <section className="w-full">
+      <div className="md:w-[80%] w-full mx-auto rounded-2xl mt-10 md:mt-20 p-6 md:p-10 md:flex items-center flex-col-reverse md:flex-row-reverse gap-6 md:gap-0">
         {/* hero image */}
-        <div className="w-1/2">
+        <div className="w-full md:w-1/2">
           <img src={hero} alt="Hero" className="w-full h-auto" />
         </div>
-        <div className="w-1/2 px-10">
+        <div className="w-full md:w-1/2 md:px-10 ">
           <span className="bg-[#CFF8F5B2] flex justify-start items-center px-3 py-1 rounded-full text-[#02534D] gap-1 mb-4 w-fit font-medium text-[12px]">
             <RiShieldStarLine /> Secure Escrow Platform
           </span>
-          <h1 className="text-[32px] font-medium mb-4 flex flex-col gap-3 text-black">
+          <h1 className="text-2xl md:text-[32px] font-medium mb-4 flex flex-col gap-3 text-black">
             Book Trusted Professionals,
             <ReactTyped
               strings={[
@@ -27,13 +27,13 @@ export default function HeroSection() {
               backSpeed={50}
               attr="placeholder"
               loop
-              className='text-black'
+              className="text-black"
             >
               <input type="text" disabled />
             </ReactTyped>
           </h1>
 
-          <p className="text-[16px] mb-6 font-normal text-gray-700">
+          <p className="text-sm md:text-[16px] mb-6 font-normal text-gray-700">
             Protect your money with our trusted escrow service. Pay with
             confidence,release funds oy when you’re satisfied.Connecting skilled
             freelancers with clients - Securely, seamlessly and stress-free

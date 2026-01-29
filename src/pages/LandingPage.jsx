@@ -4,10 +4,11 @@ import HeroSection from "../components/Hero";
 import HowitWorks from "../components/HowitWorks";
 import WhyChooseUss from "../components/WhyChooseUss";
 import FeaturedCategories from "../components/FeaturedCategories";
+import Pricing from "../components/Pricing";
 
 export default function LandingPage() {
   return (
-    <section className="w-full min-h-screen bg-[#CFF8F526]">
+    <section className="min-w-screen min-h-screen bg-[#CFF8F526] mx-auto">
       {/* navigation */}
       <Nav />
       {/* hero section */}
@@ -22,6 +23,7 @@ export default function LandingPage() {
       </div>
       <div className="w-full">
         <FeaturedCategories />
+        <Pricing />
       </div>
     </section>
   );

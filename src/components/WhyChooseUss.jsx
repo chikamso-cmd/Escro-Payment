@@ -1,12 +1,14 @@
-import React from 'react'
-import { WhyChooseUssData } from '../Constants.jsx'
+import React from "react";
+import { WhyChooseUssData } from "../Constants.jsx";
 
 export default function WhyChooseUss() {
   return (
-    <div className=" py-16 px-4 md:px-8 lg:px-16 w-[80%] mx-auto">
+    <div className="py-10 md:py-16 px-4 w-full md:w-[80%] mx-auto">
       <div className="mb-12 text-center">
-        <h1 className="text-[32px] font-medium py-3">Why Choose Us</h1>
-        <p className="text-[14px] font-medium">
+        <h1 className="text-2xl md:text-[32px] font-medium py-3">
+          Why Choose Us
+        </h1>
+        <p className="text-sm md:text-[14px] font-medium">
           Built with security and trust at core, designed for peace of mind
         </p>
       </div>
