@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.linear-bg{
+    background: linear-gradient(90deg, #02534D, #036e67,  rgb(255, 209, 3));
+}

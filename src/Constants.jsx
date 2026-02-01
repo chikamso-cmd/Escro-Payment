@@ -7,7 +7,7 @@ import {
   RiGraduationCapLine,
   RiGeminiFill,
 } from "react-icons/ri";
-import { FaRegClock, FaRegBell } from "react-icons/fa";
+import { FaRegClock, FaRegBell, FaStar } from "react-icons/fa";
 import { PiCurrencyDollarSimple } from "react-icons/pi";
 import { HiUsers } from "react-icons/hi";
 import { LuSquareUserRound } from "react-icons/lu";
@@ -154,5 +154,39 @@ export const featuredCategories = [
     image:
       "https://res.cloudinary.com/dfcr3ut7b/image/upload/v1769443889/Rectangle_11_lfzrsr.svg",
     description: "Academic and skill-based tutoring",
+  },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    icon: <FaStar size={20} className="text-yellow-400" />,
+    description:
+      "i've used this for shiring contractors and it's been flawless, The milstone system ensures works gets done right before any payment is released.",
+    image:
+      "https://res.cloudinary.com/dfcr3ut7b/image/upload/v1769443889/Rectangle_11_lfzrsr.svg",
+    img_description: "user profile photo",
+    name: "Sarah Johnson",
+    title: "Photographer",
+  },
+  {
+    id: 2,
+    icon: <FaStar size={20} className="text-yellow-400" />,
+    description:
+      "This Escrow has transformed how i work with clients. No more worrying about payments issue-ican focus on what i do best",
+    image:
+      "https://res.cloudinary.com/dfcr3ut7b/image/upload/v1769443888/Rectangle_11_3_xylvmv.svg",
+    name: "Micheal Chen",
+    title: "Web Developer",
+  },
+  {
+    id: 3,
+    icon: <FaStar size={20} className="text-yellow-400" />,
+    description:
+      "As a freelancer, having this layer of protection gives me and my client peace of mind. The platform is intuitive and support is excellent.",
+    image:
+      "https://res.cloudinary.com/dfcr3ut7b/image/upload/v1769443888/Rectangle_11_3_xylvmv.svg",
+    name: "Emma Rodriguez",
+    title: "Designer",
   },
 ];

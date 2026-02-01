@@ -1,11 +1,11 @@
 import React from "react";
 import { IoCheckmarkSharp } from "react-icons/io5";
-
 import PricingCard from "../ui/PricingCard";
+import { Link } from "react-router-dom";
 
 export default function Pricing() {
   return (
-    <section className="w-full md:w-[80%] py-10 md:py-0 px-4 md:px-0 min-h-screen mx-auto">
+    <section className="w-full md:w-[80%] py-10 mb-5 md:py-0 px-4 md:px-0 min-h-screen mx-auto">
       <div className="text-center">
         <h1 className="text-2xl md:text-[32px] font-medium py-2">
           Simple transparent Pricing
@@ -62,7 +62,7 @@ export default function Pricing() {
         </PricingCard>
 
         <PricingCard className="mt-8 md:mt-0 border-2 border-[#02534D] py-10 hover:border-[#02534D] transition-all duration-500 relative">
-          <div className="bg-[#02534D] text-white rounded-full w-fit px-6 md:px-9 py-2 mx-auto absolute -top-5 left-1/2 -translate-x-1/2 md:left-40 md:translate-x-0 font-medium ">
+          <div className="bg-[#02534D] text-white rounded-full w-fit px-6 md:px-9 py-2 mx-auto absolute -top-5 left-1/2 -translate-x-1/2 font-medium ">
             <p>Recomended</p>
           </div>
           <h2 className="text-3xl font-medium mb-4 text-center">
@@ -116,10 +116,15 @@ export default function Pricing() {
           </button>
         </PricingCard>
       </div>
-      <div className="w-[80%]">
-        <p>
+      <div className="">
+        <p className="px-10 mt-5  text-center ">
           All plans include SSL encryption, PCI compliance, and fraud
-          protection. Need a custom solution? Contact our sales team{" "}
+        </p>
+        <p className="px-10 text-center ">
+          protection. Need a custom solution?{" "}
+          <Link to="" className="text-[#02534D] font-medium">
+            Contact our sales team.
+          </Link>
         </p>
       </div>
     </section>

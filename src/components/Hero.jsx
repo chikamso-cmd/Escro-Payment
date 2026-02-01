@@ -38,7 +38,7 @@ export default function HeroSection() {
             confidence,release funds oy when you’re satisfied.Connecting skilled
             freelancers with clients - Securely, seamlessly and stress-free
           </p>
-          <button className="bg-[#02534D] text-white px-6 py-3 rounded-lg hover:bg-[#033633] transition duration-300 cursor-pointer font-medium">
+          <button className="bg-[#02534D] text-white px-8 py-3 rounded-lg hover:bg-[#033633] transition duration-300 cursor-pointer font-medium min-h-[48px] flex items-center justify-center">
             Get Started Free
           </button>
           {/* satisfied customers */}
@@ -51,7 +51,7 @@ export default function HeroSection() {
               <p className="font-semibold text-[16px] text-center">$5M+</p>
               <span className="text-[12px]">Protected</span>
             </div>
-            <div clasName="text-center">
+            <div className="text-center">
               <p className="font-semibold text-[16px] text-center">99.9%</p>
               <span className="text-[12px]">Satisfactions</span>
             </div>
